@@ -1,0 +1,173 @@
+*{
+    margin:0;
+}
+body{
+    margin: 0;
+    font-family: Tahoma;
+}
+section{
+    height:900px;
+}
+
+.upper-section{
+    background-image: url(personal-website/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.half-width{
+    width: 40%;
+    float:left;
+    margin-left:5%;
+    margin-top: 0;
+   // padding: 1%;
+    //background: white;
+}
+h1{
+    font-size: 30px;
+    
+}
+p{
+    color: #A0A0A0;
+}
+#name{
+    color: #EC4C7A;
+    font-size: 40px;
+}
+.half-width img{
+    width: 100%;
+    margin-top: 21%;
+    margin-left: 4%;
+}
+.upper-left{
+    margin-left: 22%;
+margin-top: 50%;
+}
+ button{
+     background-image: linear-gradient(45deg,#EC5094,#ED4B72);
+    padding:15px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight:700;
+    font-size: 12px;
+     
+    
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.upper-middle-section{
+    background-image: url(personal-website/biography-bg.png);
+    background-size: cover;
+}
+.upper-mid-right{
+    margin-left: 20%;
+    margin-top:55%;
+}
+.lower-middle-section{
+    background-image: url(personal-website/latest-work-bg.png);
+    background-size: cover;
+    height: 700px;
+    
+}
+.lower-mid{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.lower-mid h1{
+    text-align:center;
+}
+.lower-mid img{
+    width: 28%;
+    padding: 10px 20px;
+    margin-top:5%;
+    height: 250px;
+}
+.lower-section{
+    background-image: url(personal-website/footer-bg.png);
+    background-size: cover;
+    text-align: center;
+}
+.lower-section h1{
+    font-size: 40px;
+}
+.lower-section p{
+    margin-left:33%;
+    margin-right: 33%;
+    margin-top: 2%;
+}
+.lower-section button{
+margin-top: 2%;
+    padding:70px 250px;
+    
+}
+.lower-section span{
+    font-size: 20px;
+   
+}
+#copyright{
+    margin-top: 20%;
+}
+@media (max-width:350px){
+.half-width{
+    width: 100%;
+    float:none;
+    margin:auto;
+    
+   
+}
+
+.upper-left{
+    margin-left: 10%;
+    margin-top: 0;
+}
+ button{
+     margin-top: 10%;
+     
+      
+}
+    
+.half-width img{
+    width: 90%;
+    margin-top:5%;
+    margin-left:5%;
+   
+}
+.upper-mid-right{
+    margin-left: 10%;
+    margin-top:30%;
+}
+.lower-middle-section{
+   
+    height: 900px;
+    
+}
+.lower-mid img{
+    width: 90%;
+    padding: 10px;
+    margin-top:5%;
+    height: 250px;
+} 
+
+.lower-section h1{
+    font-size: 40px;
+    margin-top: 20%;
+} 
+.lower-section p{
+    margin:10%;
+   
+}
+.lower-section button{
+
+    padding:5px 10px;
+    font-size: 10px;
+    
+}
+.lower-section span{
+    font-size: 15px;
+   margin-top: 30%;
+}
+    
+}
